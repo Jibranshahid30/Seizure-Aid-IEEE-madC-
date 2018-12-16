@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">first project</string>
+    <string name="desc">Image</string>
+    <string name="name">name</string>
+    <string name="login">log in</string>
+    <string name="newAccount">Create an new account</string>
+    <string name="password">password</string>
+    <string name="attemptLeft">No of attempt remaining</string>
+
+    <string name="linkofEpilepsy">
+    <a href="https://www.webmd.com/epilepsy/default.htm">More about Epilepsy</a>
+</string>
+
+</resources>

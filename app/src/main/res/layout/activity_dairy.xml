@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dairy">
+
+    <EditText
+        android:id="@+id/etmedi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:editable="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="Are you On medication?" />
+
+    <EditText
+        android:id="@+id/etop"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/etmedi"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Yes/No"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etsei"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112dp"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textPersonName"
+        android:text="When You experince The seizure/fits last time?" />
+
+    <EditText
+        android:id="@+id/etdays"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/etsei"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="days"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etdoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:clickable="false"
+        android:editable="false"
+        android:focusable="false"
+        android:text="Do you Refer any Doctor?" />
+
+    <EditText
+        android:id="@+id/etdoctor"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etop"
+        android:layout_alignLeft="@id/etop"
+        android:layout_alignTop="@+id/etdoc"
+        android:ems="10"
+        android:hint="Yes/No"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etfre"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="208dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:clickable="false"
+        android:editable="false"
+        android:focusable="false"
+        android:text="Do you Feel frequent Seizures/Fits?" />
+
+    <EditText
+        android:id="@+id/etfrequ"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etop"
+        android:layout_alignLeft="@+id/etop"
+        android:layout_alignTop="@+id/etfre"
+        android:ems="10"
+        android:hint="Yes/No"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnupd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="134dp"
+        android:text="Update Record" />
+
+    <Button
+        android:id="@+id/BTNnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:text="Back" />
+
+
+</RelativeLayout>

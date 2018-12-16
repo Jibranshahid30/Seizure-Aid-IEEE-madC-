@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobeensohail.firstproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".firstproject"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Seizure Aid"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".Welcome"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".FftActivity" />
+        <activity android:name=".Emergency" />
+        <activity android:name=".Option" />
+        <activity android:name=".Dairy" />
+        <activity android:name=".Epilepsy" />
+        <activity android:name=".Contect" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

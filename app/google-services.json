@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "323531063663",
+    "firebase_url": "https://mobeenproject.firebaseio.com",
+    "project_id": "mobeenproject",
+    "storage_bucket": "mobeenproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323531063663:android:7a7dc23f814a948e",
+        "android_client_info": {
+          "package_name": "com.example.mobeensohail.firstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323531063663-1arnqjqmfg3actl870sol8kt3kql5bdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mobeensohail.firstproject",
+            "certificate_hash": "128ff67475f2b80243fe7275b9ebb674b1032ae9"
+          }
+        },
+        {
+          "client_id": "323531063663-5481eeqeufs9j0vqodf7ik3btsilmd5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCfEpOj30PJNmSQ8tVqqRVsAPLflOeXEk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323531063663-5481eeqeufs9j0vqodf7ik3btsilmd5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

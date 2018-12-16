@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Emergency">
+
+
+    <EditText
+        android:id="@+id/etMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Your patient need Emergency help. Self genrated notification by Seizure Aid" />
+
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="03357765339" />
+
+    <Button
+        android:id="@+id/btnSendsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="116dp"
+        android:text="Send sms" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:editable="false"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Emergency Condition ..... Send Emergency Notification" />
+
+
+</RelativeLayout>
